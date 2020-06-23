@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tutor_mobile_navigation"
+    app:startDestination="@+id/nav_home_tutor"
+    >
+
+    <fragment
+        android:id="@+id/nav_home_tutor"
+        android:name="com.example.ubertutors.Tutor.Home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_tutor">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.ubertutors.Tutor.Home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home_tutor" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_payment_tutor"
+        android:name="com.example.ubertutors.Tutor.Payment.PaymentFragment"
+        android:label="Payment"
+        tools:layout="@layout/fragment_payment_tutor"/>
+
+    <fragment
+        android:id="@+id/nav_help_tutor"
+        android:name="com.example.ubertutors.Tutor.Help.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help_tutor"/>
+
+    <fragment
+        android:id="@+id/nav_profile_tutor"
+        android:name="com.example.ubertutors.Tutor.Profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_tutor"/>
+
+
+
+
+
+</navigation>

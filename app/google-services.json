@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "310870282625",
+    "firebase_url": "https://ubertutor-16c59.firebaseio.com",
+    "project_id": "ubertutor-16c59",
+    "storage_bucket": "ubertutor-16c59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310870282625:android:653c7cfee559cc15dc5880",
+        "android_client_info": {
+          "package_name": "com.example.ubertutors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310870282625-l7u12g6qc5r9sbrb9oofak6rmleflm2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9KopPCtp4_OVTFxSmDh1hsC-4x-nnnM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310870282625-l7u12g6qc5r9sbrb9oofak6rmleflm2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
