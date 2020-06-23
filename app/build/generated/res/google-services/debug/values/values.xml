@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">310870282625-l7u12g6qc5r9sbrb9oofak6rmleflm2t.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ubertutor-16c59.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">310870282625</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9KopPCtp4_OVTFxSmDh1hsC-4x-nnnM4</string>
+    <string name="google_app_id" translatable="false">1:310870282625:android:653c7cfee559cc15dc5880</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9KopPCtp4_OVTFxSmDh1hsC-4x-nnnM4</string>
+    <string name="google_storage_bucket" translatable="false">ubertutor-16c59.appspot.com</string>
+    <string name="project_id" translatable="false">ubertutor-16c59</string>
+</resources>
